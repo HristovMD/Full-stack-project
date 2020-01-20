@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin-left:auto;
+}
+body{
+ background: url(../img/guinness.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+h6{
+  color:#fff;
+}
+
+
+.submit, .check {
+  float: right;
+  color:white!important;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  margin: 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+
+
+.container {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+.col-75{
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+ .col-75, .col-md-4 {
+    width: 60%;
+    margin-top: 10px;
+  }
+
+
+
+

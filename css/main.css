@@ -1,0 +1,75 @@
+body{
+	background: url(../img/guinness.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.login-box{
+	color:#fff;
+	max-width: 600px;
+	float: none;
+	margin-left: auto;
+	margin-top:50px;
+	
+}
+.float-right{
+margin-right: 20px;
+}
+
+
+p{	margin-top:-600px!important;
+	color:#fff!important;
+	text-transform: uppercase;
+	font-family: "Times New Roman", Times, serif;
+}
+ .btn{ font-family: "Times New Roman", Times, serif;
+ 	margin-top: 50px!important;
+	float:right !important;
+}
+
+
+  a {
+  color: #fff !important;
+}
+
+ul{ 
+    text-align: right;
+	float: right;
+	list-style-type: none;
+	margin-top:-450px!important;
+}
+
+li {
+	padding: 20px 0px;
+	font-size: 1.5em;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.rate{
+	position: relative;
+	float: right;
+	margin-top:-100px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+h6{
+	color:#fff!important;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.moreinfo{
+	 width: 120px;
+  margin-left: 350px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 800px) {
+ .moreinfo{
+ 	opacity: 0.5;
+margin-left: 20px;
+  }
+
